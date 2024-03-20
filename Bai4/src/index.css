@@ -1,0 +1,43 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.infor-class-date {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  gap: 5px;
+}
+/* .form-label {
+  display: block;
+  gap: 5px;
+} */
+.infor-image {
+  display: flex;
+  padding-top: 10px;
+}
+.form-page {
+  width: 500px;
+}
+.my-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.title {
+  text-align: center;
+  background-color: rgb(105, 105, 148);
+  color: white;
+  margin: 0px;
+}
+.form-container {
+  background-color: rgb(176, 176, 192);
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.infor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
