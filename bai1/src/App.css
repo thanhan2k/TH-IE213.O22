@@ -1,0 +1,41 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: hotpink;
+  width: 550px;
+ 
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#title {
+  width: 100%;
+  display: block;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;margin-bottom: 10px;
+  background-color: fuchsia;
+}
+div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+input {
+  width: 300px;
+  margin-right: 10px;
+}
+#button {
+  align-self: center;
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 130px;
+  box-shadow: 1px 1px gray;
+}
+  
