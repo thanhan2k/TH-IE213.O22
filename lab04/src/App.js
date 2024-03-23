@@ -1,22 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import FormComponent from "./components/FormComponent";
+import SubmittedFormComponent from "./components/SubmitComponent";
 
 function App() {
+  const [formData, setFormData] = useState({});
+  const [submittedData, setSubmittedData] = useState(null);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleCheck = (e) => {
+    const { name, checked } = e.target;
+    setFormData({ ...formData, [name]: checked });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSubmittedData(formData);
+  };
+
+  const isChecked = () => {
+    let result;
+
+    if (submittedData.homeworkAtClass && submittedData.homeworkAtHome) {
+      result = "Tại lớp - Tại nhà";
+    } else if (submittedData.homeworkAtClass && !submittedData.homeworkAtHome) {
+      result = "Tại lớp";
+    } else if (!submittedData.homeworkAtClass && submittedData.homeworkAtHome) {
+      result = "Tại nhà";
+    } else {
+      result = "Không có";
+    }
+
+    return result;
+  };
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <FormComponent
+          formData={formData}
+          handleChange={handleChange}
+          handleCheck={handleCheck}
+          handleSubmit={handleSubmit}
+        />
+        {submittedData && (
+          <SubmittedFormComponent
+            submittedData={submittedData}
+            isChecked={isChecked}
+          />
+        )}
       </header>
     </div>
   );
