@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #EFBC9B;
+}
+.Header {
+  background-color: firebrick;
+  color: white;
+  margin: 0;
+}
+.sights-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: fit-content;
+  width: 500px;
+  padding: 20px;
+  margin: 10px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.panel {
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+}
+div {
+  font-weight: 900;
+  font-size: 30px;
+}
+a {
+  font-weight: 100;
+  font-size: 20px;
+}
