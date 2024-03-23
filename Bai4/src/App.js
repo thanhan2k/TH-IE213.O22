@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React, { useState } from 'react';
 import pencilImg from './img/pencil-background-removed.png';
 import './App.css';
@@ -43,7 +42,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <form onSubmit={handleSubmit} className='form-container'>
-          <p className='form-title'>Theo dõi học tập</p>
+          <h3 className='form-title'>THEO DÕI HỌC TẬP</h3>
 
           <div className='form-row-1'>
             <div className='student-information'>
@@ -63,7 +62,7 @@ function App() {
                 </label>
                 <label className='form-date'>
                   <p>Ngày:</p>
-                  <input type="text" name="date" value={formData.date} onChange={handleChange} />
+                  <input type="date" name="date" value={formData.date} onChange={handleChange} />
                 </label>
               </div>
               <br />
