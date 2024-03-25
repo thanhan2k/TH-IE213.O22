@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.study-result-page {
+  width: 500px;
+  background-color: rgb(241, 177, 187);
+  /* height: 260px; */
+}
+
+.title {
+  background-color: rgb(184, 85, 102);
+  text-align: center;
+  /* font-family: cursive;
+  font-style: oblique; */
+}
+.study-result-form {
+  margin: 10px 40px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label-input {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 100px;
+  margin-bottom: 5px;
+}
+.button-click {
+  display: flex;
+  justify-content: center;
+}
