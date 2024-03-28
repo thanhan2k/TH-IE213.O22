@@ -1,0 +1,55 @@
+form {
+  background-color:lightskyblue;
+  width: 800px;
+}
+#title {
+  background-color: cadetblue;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#box1 {
+  display:flex;
+  margin: 10px;
+}
+#box-child1 {
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#note {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  width: 400px;
+}
+#content {
+  background-color:burlywood ;
+}
+#title2 {
+  background-color: cadetblue;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  
+}
+.nn {
+  margin-right: 370px;
+}
+.nn2 {
+  margin-right: 142px;
+}
