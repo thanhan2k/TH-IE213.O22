@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+h3 {
+  color: #fff !important;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ccc;
+  width: 1000px;
+}
+
+.form-title {
+  width: 100%;
+  background-color: #0056b3;
+  text-align: center;
+}
+
+.form-container .form-row-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 16px;
+}
+
+.form-container .form-row-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+
+.form-container .form-row-1 .student-information {
+  width: 600px;
+}
+
+.form-container .form-information {
+  display: inline-block;
+  width: 600px;
+  margin-bottom: 16px
+}
+
+.form-container .form-work p{
+  /* width: 400px; */
+  width: 600px;
+}
+
+.form-container .form-work textarea{
+  /* width: 400px; */
+  width: 596px;
+  height: 80px;
+}
+
+.form-container label {
+  /* margin-bottom: 10px; */
+  width: 800px;
+}
+ 
+.form-container label p {
+  display: inline-block;
+  width: 230px;
+}
+
+.form-container .form-class p, .form-container .form-date p {
+  width: 119px;
+}
+
+.form-container input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: inlineblock;
+}
+
+.form-container .form-name input, .form-container .form-teacher input {
+  width: 350px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+
+.form-container .pencil-image{
+  margin: auto;
+  margin-left: 80px;
+}
+
+.form-container .pencil-image img{
+  height: 200px;
+  width: 200px;
+}
+/* .form-row-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.form-container .submit-button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container .form-row-2 button {
+  width: 100px;
+}
+/* label {
+  width: 800px;
+} */
+
+.submitted-form {
+  display: block;
+  background-color: #0056b3;
+  width: 1000px;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+
+.submitted-form .title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.submitted-form p {
+  margin: 0 20px;
+}
