@@ -51,11 +51,11 @@ function App() {
         <div>Chọn hình thức hoàn thành</div>
         <div class='line'>
           <input type='checkbox' onChange={()=>setlc1(!lc1)}></input>
-          <label>Những việc chưa làm sẽ được hoàn thành ngay tại lớp</label>
+          <label class='nn'>Những việc chưa làm sẽ được hoàn thành ngay tại lớp</label>
         </div>
         <div class='line'>
           <input type='checkbox' onChange={()=>setlc2(!lc2)}></input>
-          <label>Sẽ hoàn thành những việc chưa làm tại nhà và nộp lại cho giáo viên vào ngày hôm sau</label>
+          <label class='nn2'>Sẽ hoàn thành những việc chưa làm tại nhà và nộp lại cho giáo viên vào ngày hôm sau</label>
         </div>
         
       </form>

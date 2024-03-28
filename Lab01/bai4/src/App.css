@@ -14,7 +14,7 @@ form {
   margin: 10px;
 }
 #box-child1 {
-  background-color: brown;
+  
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -46,4 +46,10 @@ body {
   text-align: center;
   font-size: 30px;
   
+}
+.nn {
+  margin-right: 370px;
+}
+.nn2 {
+  margin-right: 142px;
 }

@@ -1,6 +1,5 @@
 
 import './App.css';
-import imgs from './img';
 import Element from './components/Elenment';
 
 const list=[
