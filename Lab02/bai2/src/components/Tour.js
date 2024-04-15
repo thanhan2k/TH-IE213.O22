@@ -12,7 +12,7 @@ function Tour({ id, image, info, name, price, removeTour }) {
 
   // const { img, price, title, info } = tour;
   return (
-    <div className="h-full md:w-[40%] lg:w-[30%] mx-3 relative rounded shadow-lg my-4 pb-8">
+    <div className="mx-3 relative rounded shadow-lg my-4 pb-8">
       <img alt="#" className="object-cover h-[320px] w-full rounded-t" src={image} />
       <div className="bg-[#10b981] text-white inline-block px-2 text-center h-[32px] leading-[32px] text-base absolute top-0 right-0 rounded-tr">
         {price}
